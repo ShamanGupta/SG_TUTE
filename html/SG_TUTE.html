@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COURSES TO ENHANCE SKILLS</title>
+    <style>
+        body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+
+.left div {
+    line-height: 29px;
+    font-size: 46px;
+    text-align: center;
+    color:rgb(0, 25, 253);
+}
+
+.mid {
+    display: block;
+    width: 56%;
+    margin: 29px auto;
+    /*border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    padding: 27px -3px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 8px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(208, 255, 0)
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: rgb(4, 0, 255);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid black;
+    margin: auto;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 428px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 5px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    float: left;
+}
+
+.container h1 {
+    text-align: center;
+    color :red;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.navbar select option{
+    color: black;
+    text-decoration: none;
+    padding: 27px -3px;
+    background-color: aquamarine;
+    border-radius: 8px;
+
+}
+.navbar select{
+    display: inline-block;
+    font-size: 25px;
+}
+.right button a {
+    color:white;
+    text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            
+            <div>SG TUTE</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="https://www.linkedin.com/in/shaman-gupta-5a6aa5195"class=" ">ABOUT US</a></li>
+                <li><a href="https://www.youtube.com/channel/UCdPsHz92dXtRZl-spH3BUtw"class=" ">YOUTUBE LINK</a></li>
+            
+            
+                <select name="New Cousres" id="course">
+                <option value="html">COURSES</option>
+                <option>SOFT SKILL</option>
+                <option>APTITUDE</option>
+                <option>REASONING</option>
+                <option>PYTHON</option>
+            </select>
+        </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn"><a href="contact.html">CONTACT US</a></button>
+            <button class="btn"><a href="email.html">EMAIL US</a></button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>REGISTER NOW! FOR ENHANCING THE SKILLS</h1>
+        <form action="submit.html">
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR NAME">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR COLLEGE NAME">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR COURSE">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR STREAM">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR EMAIL_ID">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR PHONE NUMBER">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
